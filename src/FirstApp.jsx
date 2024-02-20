@@ -12,7 +12,16 @@ export const FirstApp = ({ title, subTitle }) => {
     );
 };
 
+// Cuando se usa Typescript no es necesario usar el paquete de prop-types
+// ya que se pueden declarar interfaces
 FirstApp.propTypes = {
     title: PropTypes.string.isRequired,
     subTitle: PropTypes.string.isRequired
+};
+
+// Se pueden establecer valores por defecto para las props construyendo un objeto defaultProps
+
+FirstApp.defaultProps = {
+    title: 'No hay título',
+    subTitle: 'No hay subtítulo'
 };
