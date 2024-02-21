@@ -27,7 +27,7 @@ export const Counter = ({ value }) => {
 // Cuando se usa Typescript no es necesario usar el paquete de prop-types
 // ya que se pueden declarar interfaces
 Counter.propTypes = {
-    value: PropTypes.number.isRequired
+    value: PropTypes.number
 };
 
 // Se pueden establecer valores por defecto para las props construyendo un objeto defaultProps
