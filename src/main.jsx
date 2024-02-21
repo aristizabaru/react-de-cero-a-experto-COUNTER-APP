@@ -7,6 +7,6 @@ const root = ReactDOM.createRoot(document.querySelector('#root'));
 root.render(
   <React.StrictMode>
     {/* <FirstApp title='Bienvenido a REACT' subTitle='De cero a experto' /> */}
-    <Counter value={20} />
+    <Counter value={0} />
   </React.StrictMode>
 );
